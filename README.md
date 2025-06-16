@@ -1,1 +1,174 @@
 # strona-influenser-ww
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Influencer Life</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #ffccff; /* Jasny różowy kolor tła */
+    }
+
+    header {
+      background-image: url('https://www.example.com/your-image2.jpg'); /* Dodaj własny URL do tła */
+      background-size: cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    nav {
+      background-color: #ff66cc; /* Intensywniejszy różowy */
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #004d33;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #cc3399;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    ul {
+      font-size: 1.1rem;
+      color: #444;
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #ff66cc;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Influencer Life</h1>
+    <p>Twój przewodnik po świecie influencerów i mediów społecznościowych</p>
+  </header>
+
+  <nav>
+    <a href="#jak">Jak zostać influencerem?</a>
+    <a href="#top">Najpopularniejsi influencerzy</a>
+    <a href="#grupy">Grupy influencerskie</a>
+  </nav>
+
+  <section id="jak">
+    <h2>Jak zostać influencerem?</h2>
+    <p>Bycie influencerem to obecnie jeden z najciekawszych zawodów w sieci. Aby zdobyć popularność i zacząć zarabiać na tworzeniu treści, musisz przejść przez kilka kluczowych etapów:</p>
+    
+    <h3>1. Wybór niszy</h3>
+    <p>Influencerzy najczęściej skupiają się na określonym temacie, który pasuje do ich pasji i zainteresowań. Może to być:</p>
+    <ul>
+      <li>Moda i uroda</li>
+      <li>Fitness i zdrowie</li>
+      <li>Podróże i lifestyle</li>
+      <li>Technologia i recenzje</li>
+      <li>Gry komputerowe</li>
+    </ul>
+
+    <h3>2. Tworzenie wartościowych treści</h3>
+    <p>Twoje posty muszą angażować odbiorców. Warto dbać o estetykę zdjęć, jakość filmów, ciekawy opis i odpowiednie hashtagi. Nie zapominaj o regularności!</p>
+
+    <h3>3. Budowanie relacji z obserwatorami</h3>
+    <p>Kluczowym elementem bycia influencerem jest bliska relacja z fanami. Odpowiadaj na komentarze, organizuj Q&A, bądź autentyczny.</p>
+
+    <h3>4. Współprace z markami</h3>
+    <p>Po osiągnięciu pewnej liczby obserwujących, możesz zacząć współpracować z markami. To świetny sposób na zarabianie, ale pamiętaj, aby współpracować tylko z tymi markami, które pasują do twojego wizerunku i wartości.</p>
+  </section>
+
+  <section id="top">
+    <h2>Najpopularniejsi influencerzy</h2>
+    <p>Oto kilku najbardziej znanych influencerów, którzy zdobyli ogromną popularność na różnych platformach:</p>
+    <ul>
+      <li><strong>Charli D’Amelio</strong> – TikTok. Charli stała się sławna dzięki tańcom i wyzwaniom tanecznym. Jej kreatywność przyciągnęła miliony subskrybentów.</li>
+      <li><strong>Kylie Jenner</strong> – Instagram. Zyskała sławę dzięki swojej marce kosmetycznej "Kylie Cosmetics" oraz życiu codziennemu, które dokumentuje w mediach społecznościowych.</li>
+      <li><strong>MrBeast</strong> – YouTube. Znany z organizowania kosztownych wyzwań, pomagania innym i ogromnych prezentów dla swoich fanów.</li>
+      <li><strong>Robert Lewandowski</strong> – Instagram. Jeden z najwybitniejszych polskich sportowców, który nie tylko dzieli się swoimi sukcesami sportowymi, ale także życiem prywatnym i charytatywnymi inicjatywami.</li>
+    </ul>
+  </section>
+
+  <section id="grupy">
+    <h2>Grupy influencerskie</h2>
+    <p>Wielu influencerów działa w grupach lub sieciach, co pozwala na zwiększenie zasięgów oraz lepsze współprace. Oto kilka znanych grup:</p>
+    <ul>
+      <li><strong>Team X</strong> – Grupa polskich youtuberów, w tym takich jak Friz, Wersow czy Karol "Karyna". Team X skupia się na humorystycznych filmikach, wyzwaniach oraz współpracy z markami.</li>
+      <li><strong>Hype House</strong> – Znana grupa TikTokerów z USA, w tym Charli D’Amelio i Addison Rae. Grupa ta była jednym z najważniejszych ośrodków popularności na TikToku.</li>
+      <li><strong>EKIPA</strong> – Jedna z najpopularniejszych polskich grup influencerskich. Ekipa ta stała się fenomenem dzięki współpracy w tworzeniu contentu na YouTube i w mediach społecznościowych.</li>
+      <li><strong>Creators Network</strong> – Międzynarodowa sieć influencerów, którzy łączą siły w celu wspólnych projektów, wydarzeń czy kampanii reklamowych.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Influencer Life | Projekt strony: natalka bartoszewicz </p>
+    <p>Chcesz wiedzieć więcej? Zajrzyj na <a href="https://www.instagram.com/" target="_blank">Instagram</a> i <a href="https://www.youtube.com/" target="_blank">YouTube</a></p>
+  </footer>
+
+</body>
+</html>
